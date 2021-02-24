@@ -11,3 +11,13 @@
  ```
  yarn
  ```
+
+ Compile o código Typescript
+ ```
+ yarn tsc
+ ```
+
+ Execute o arquivo compilado
+ ```
+ node ./dist/caminho/para/o/arquivo
+ ```
