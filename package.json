@@ -1,0 +1,11 @@
+{
+  "name": "pdm-exercicios-modulo-01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ARJOM/pdm-exercicios-modulo-01.git",
+  "author": "Antônio Ricart <ricarteusuo11@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.2.2"
+  }
+}
