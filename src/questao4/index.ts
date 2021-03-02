@@ -22,4 +22,4 @@ function mostraInfo(usuario2: any) {
     return `${nome} tem ${idade} anos.`;
 }
 
-mostraInfo({ nome: 'Diego', idade: 23})
+console.log(mostraInfo({ nome: 'Diego', idade: 23}));

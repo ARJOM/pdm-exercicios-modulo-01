@@ -37,3 +37,7 @@ class ItemOrcamentoComplexo extends ItemOrcamento {
 
 }
 
+let arroz = new ItemOrcamentoComplexo("10:9:8", 12, "arroz");
+
+console.log(arroz.getValorNome());
+console.log(arroz.encontraItem());

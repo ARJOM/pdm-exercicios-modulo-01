@@ -2,11 +2,17 @@
   "name": "pdm-exercicios-modulo-01",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "watch": "tsc -w",
+    "start": "node dist/questao10/index.js",
+    "start2": "ts-node src/questao3/index.ts"
+  },
   "repository": "git@github.com:ARJOM/pdm-exercicios-modulo-01.git",
   "author": "Antônio Ricart <ricarteusuo11@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^4.2.2"
+    "typescript": "^4.1.3",
+    "ts-node": "^9.1.1"
   },
   "dependencies": {
     "axios": "^0.21.1"

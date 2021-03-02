@@ -1,10 +1,10 @@
 // 3.1
 
-const arr = [1,2,3,4,5];
+const arr1 = [1,2,3,4,5];
 
-arr.map((item) => {
+console.log(arr1.map((item) => {
     return item + 10;
-});
+}));
 
 //3.2
 
@@ -17,7 +17,7 @@ const mostraIdade = (usuario: any) => {
     return usuario.idade;
 };
 
-mostraIdade(usuario1);
+console.log(mostraIdade(usuario1));
 
 //3.3
 
@@ -28,8 +28,8 @@ const mostraUsuario = (nome = 'Diego', idade = 18 ) => {
     return { nome , idade };
 };
 
-mostraUsuario(nome1, idade1);
-mostraUsuario(nome1);
+console.log(mostraUsuario(nome1, idade1));
+console.log(mostraUsuario(nome1));
 
 //3.4
 
