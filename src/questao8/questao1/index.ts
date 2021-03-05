@@ -1,3 +1,3 @@
-import ClasseUsuario from './something';
+import ClasseUsuario from '../something';
 
 ClasseUsuario.info();
